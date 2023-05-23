@@ -21,7 +21,7 @@ while (!feof($file)) {
         } else {
             echo "visitante: ";
         }
-        printf("\t%s [%d - %d] %s\n", $m[2], $m[4], $m[5], $m[3]);
+        printf("\t%s\t%s [%d - %d] %s\n", $m[1], $m[2], $m[4], $m[5], $m[3]);
         $match++;
     } else {
         $nomatch++;
